@@ -1,0 +1,45 @@
+    {
+        "simulateur_bus": {
+        "modeles_de_bus": [
+            {
+            "id": 1,
+            "nom": "Modèle A",
+            "prix_de_base": 250000,
+            "cout_batterie_par_km": 500
+            },
+            {
+            "id": 2,
+            "nom": "Modèle B",
+            "prix_de_base": 300000,
+            "cout_batterie_par_km": 600
+            },
+            {
+            "id": 3,
+            "nom": "Modèle C",
+            "prix_de_base": 280000,
+            "cout_batterie_par_km": 550
+            }
+        ],
+        "options": [
+            {
+            "id": 1,
+            "nom": "Peinture spéciale",
+            "cout": 10000
+            },
+            {
+            "id": 2,
+            "nom": "Intérieur premium",
+            "cout": 15000
+            },
+            {
+            "id": 3,
+            "nom": "Système de navigation avancé",
+            "cout": 12000
+            }
+        ],
+        "subventions": {
+            "reduction_etat": 20000
+        }
+        }
+    }
+    
