@@ -1,13 +1,20 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', serif;
 }
 .first-section{
 
 }
 .header{
 
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+margin-right: 25px;
 }
 .logo{
 
@@ -21,10 +28,12 @@ body{
     height: 24px;
     width: 66px;
     border-radius: 5PX 5PX 2PX 2PX;
-    top: 11px;
+    /* top: 11px; */
 }
 .logo{
     display: flex;
+    align-items: center;
+    padding: 28px;
 }
 .tete{
     position: absolute;
@@ -52,5 +61,76 @@ body{
     right: 7px;
 }
 .slogan{
-    font-size: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    gap: 28px;
+    list-style-type: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+.menu a{  
+    text-decoration: none;    
+    color: black;
+}
+.section-body{
+
+}
+.corps{
+    background-color: #9C27B0;
+    height: 165px;
+    width: 349px;
+    position: relative;
+    border-radius: 16px;
+}
+.window{
+    background-color: aliceblue;
+    height: 57px;
+    width: 95px;
+    position: absolute;
+    border: 2px solid black;
+    
+    border-radius: 8px;
+}
+.lef{
+    top: 22px;
+    left: 59px;
+}
+.righ{
+    top: 22px;
+    left: 181px;
+}
+.light{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+.rightt{
+    bottom: 19px;
+    right: 20px;
+    background-color: yellow;
+    box-shadow: 0px 1px 23px 6px yellow;
+}
+.leftt{
+    background-color: red;
+    bottom: 19px;
+    left: 20px;
+    box-shadow: 0px 1px 23px 6px RED;
+}
+.wheel{
+    background-color: black;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -31px;
+}
+.lefttt{
+    left: 62px;
+}
+.righttt{
+    right: 70px;
 }
